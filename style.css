@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+}
+  
+.homePageBackground{   
+    background: red;
+    background-size: cover;
+    background-position: center;
+}
+
+.searchPageBackground{
+    background-color: rgb(8, 91, 245);  
+    
+}
+
+
+.searchPage{
+    font-size: 25px;
+    margin: 25px;
+    color: white; 
+    text-align: center;
+}
+
+.searchPage h1{
+    margin-bottom: 20px;
+}
+
+
+.searchPage-header-desc{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#search-item{
+    font-size: 20px;
+}
+
+.js-search-results{
+    font-size: 20px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;   
+    color: black;
+}
+
+
+.result{   
+    padding: 20px;
+    margin: 20px;  
+    margin-bottom: 5px; 
+    border: 5px;
+    background-color: rgb(245, 3, 3);
+    flex: 1  1 30%;    
+}
+
+
+.bold{
+    font-weight: bold;
+}
+
+.result .bold{
+    font-family: 'Times New Roman', Times, serif
+}
+
+.homePage{
+    display: block;
+    text-align: center;        
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 25px;
+    color: white;
+    height: 100vh;
+}
+
+button{
+    font-size: 25px;
+    width: 200px;
+    height: 60px; 
+    margin: 20px;
+    background-color: rgb(255, 251, 0);
+    color: black;
+    font-style: bold;
+        
+}
+
+.description{
+    font-family: 'Times New Roman', Times, serif
+}
+
+
+button:hover {
+    background-color: aqua;
+    border-color: transparent;
+    color: black;
+	cursor: pointer;
+}
+
+  
+@media only screen and (min-width: 320px) {
+
+    .result
+    {  
+        width: 100%;
+    }
+  }
+
+
+  @media only screen and (min-width: 768px) {
+
+    .result
+    {  
+        width: 49.999%;        
+    }
+  }
+
+
+  @media only screen and (min-width: 1280px) {
+
+    .result
+    {  
+        width: 33.3333%;        
+    }
+  }
