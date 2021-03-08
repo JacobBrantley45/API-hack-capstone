@@ -14,6 +14,7 @@ APP DESCRIPTION:
 The "Films by assosiation" App is ment for users to be able interact with a web page which has the ability to suggest movies based on the users favorite films. The will be greeted on the home page of the app, and will be required to select an enter button to move onto the search page. On the search page, the user will be told how the app works as well as the apps purpose, along with being displayed a text search bar. Users will then enter one of their favorite films, or a film that resides in a favored catagory. Once the user has filled in the required search text, the app will return six film suggestions that relate to the searched film. There will be a summary of the film along with a trailor featuring the film retrieved from youtube. 
 
 LIST OF TECHNOLOGY USED:
+
 HTML
 CSS
 JAVASCRIPT
