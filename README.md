@@ -1,7 +1,7 @@
 # Films-by-association
 
 LIVE LINK TO APP HERE:
-https://jacobbrantley45.github.io/Films-by-assosiation/
+
 
 SCREENSHOTS:
 The following are screenshots that depict the app while in use.
